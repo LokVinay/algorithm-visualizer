@@ -1,52 +1,57 @@
-#Algorithm Visualizer
+# Algorithm Visualizer
 --> A web-based application designed to help beginners and students understand how different sorting and pathfinding algorithms work through interactive and dynamic visualizations.
 
-#🚀 Live Demo
+
+# 🚀 Live Demo
 [Link to your live demo here]
 
-#✨ Features
-Sorting Visualizer: Watch various sorting algorithms bring an array of bars to order.
 
-Pathfinding Visualizer: Explore how pathfinding algorithms navigate a grid to find the shortest path between two points.
+# ✨ Features
+-->Sorting Visualizer: Watch various sorting algorithms bring an array of bars to order.
 
-Dynamic Notes: Click the "Show Notes" button to get a simple, beginner-friendly explanation of the selected algorithm.
+-->Pathfinding Visualizer: Explore how pathfinding algorithms navigate a grid to find the shortest path between two points.
 
-Customizable Input: Manually enter your own array for sorting or create a random maze for pathfinding.
+-->Dynamic Notes: Click the "Show Notes" button to get a simple, beginner-friendly explanation of the selected algorithm.
 
-Speed Control: Adjust the animation speed from "Very Slow" to "Very Fast" to observe each step at your own pace.
+-->Customizable Input: Manually enter your own array for sorting or create a random maze for pathfinding.
 
-Dark/Light Mode: Toggle between themes for a comfortable viewing experience.
+-->Speed Control: Adjust the animation speed from "Very Slow" to "Very Fast" to observe each step at your own pace.
 
-#🛠️ Tech Stack
+-->Dark/Light Mode: Toggle between themes for a comfortable viewing experience.
+
+
+# 🛠️ Tech Stack
 HTML5: Provides the foundational structure of the web application.
 
 CSS3: Used for all styling, including responsive design, animations, and the dark/light theme.
 
 JavaScript (ES6+): Powers all the interactive logic, including the algorithm implementations and real-time visualization.
 
-#🧠 Concepts Visualized
+# 🧠 Concepts Visualized
 Sorting Algorithms:
-Bubble Sort: A simple algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
-Insertion Sort: Builds the final sorted array one item at a time by inserting each element into its correct position.
+-->Bubble Sort: A simple algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
-Merge Sort: A "divide and conquer" algorithm that recursively splits the array and merges the sorted halves.
+-->Insertion Sort: Builds the final sorted array one item at a time by inserting each element into its correct position.
 
-Quick Sort: A highly efficient "divide and conquer" algorithm that uses a pivot element to partition the array.
+-->Merge Sort: A "divide and conquer" algorithm that recursively splits the array and merges the sorted halves.
 
-Heap Sort: Uses a binary heap data structure to efficiently sort elements.
+-->Quick Sort: A highly efficient "divide and conquer" algorithm that uses a pivot element to partition the array.
+
+-->Heap Sort: Uses a binary heap data structure to efficiently sort elements.
 
 Pathfinding Algorithms:
-Breadth-First Search (BFS): Explores all immediate neighbor nodes before moving to the next level of nodes, guaranteeing the shortest path in an unweighted grid.
 
-Depth-First Search (DFS): Explores as far as possible down each branch before backtracking, often used for maze generation.
+-->Breadth-First Search (BFS): Explores all immediate neighbor nodes before moving to the next level of nodes, guaranteeing the shortest path in an unweighted grid.
 
-Dijkstra's Algorithm: Finds the shortest paths from a starting node to all other nodes in a weighted graph.
+-->Depth-First Search (DFS): Explores as far as possible down each branch before backtracking, often used for maze generation.
 
-A* Search: An intelligent extension of Dijkstra's, using a heuristic function to guide its search and find the shortest path more efficiently.
+-->Dijkstra's Algorithm: Finds the shortest paths from a starting node to all other nodes in a weighted graph.
+
+-->A* Search: An intelligent extension of Dijkstra's, using a heuristic function to guide its search and find the shortest path more efficiently.
 
 # 📂 Project Structure
-This project is organized into three main files for clarity and modularity.
+--->This project is organized into three main files for clarity and modularity.
 <img width="957" height="175" alt="image" src="https://github.com/user-attachments/assets/e079491f-fd57-4fd2-bc9f-b5a9a9929d4a" />
 
 
@@ -64,4 +69,4 @@ Navigate to the project directory:
 --> Open the index.html file in your preferred web browser.
 
 # ✍️ Author
-Lok Vinay
+Thiruveedhula Lok Vinay

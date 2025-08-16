@@ -3,7 +3,9 @@
 
 
 # 🚀 Live Demo
-- https://lokvinay.github.io/algorithm-visualizer/ [Link]
+- https://lokvinay.github.io/algorithm-visualizer/ [GITHUB]
+- https://algorithm-visualizer-snowy-alpha.vercel.app/ [VERCEL]
+- https://lambent-begonia-28f0be.netlify.app/ [NETLIFY]
 
 
 # ✨ Features

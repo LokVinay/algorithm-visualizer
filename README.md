@@ -1,10 +1,10 @@
 #Algorithm Visualizer
-A web-based application designed to help beginners and students understand how different sorting and pathfinding algorithms work through interactive and dynamic visualizations.
+--> A web-based application designed to help beginners and students understand how different sorting and pathfinding algorithms work through interactive and dynamic visualizations.
 
-# 🚀 Live Demo
+#🚀 Live Demo
 [Link to your live demo here]
 
-# ✨ Features
+#✨ Features
 Sorting Visualizer: Watch various sorting algorithms bring an array of bars to order.
 
 Pathfinding Visualizer: Explore how pathfinding algorithms navigate a grid to find the shortest path between two points.
@@ -24,7 +24,7 @@ CSS3: Used for all styling, including responsive design, animations, and the dar
 
 JavaScript (ES6+): Powers all the interactive logic, including the algorithm implementations and real-time visualization.
 
-# 🧠 Concepts Visualized
+#🧠 Concepts Visualized
 Sorting Algorithms:
 Bubble Sort: A simple algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
@@ -43,31 +43,25 @@ Depth-First Search (DFS): Explores as far as possible down each branch before ba
 
 Dijkstra's Algorithm: Finds the shortest paths from a starting node to all other nodes in a weighted graph.
 
-*A Search:** An intelligent extension of Dijkstra's, using a heuristic function to guide its search and find the shortest path more efficiently.
+A* Search: An intelligent extension of Dijkstra's, using a heuristic function to guide its search and find the shortest path more efficiently.
 
-#📂 Project Structure
+# 📂 Project Structure
 This project is organized into three main files for clarity and modularity.
+<img width="957" height="175" alt="image" src="https://github.com/user-attachments/assets/e079491f-fd57-4fd2-bc9f-b5a9a9929d4a" />
 
-/
-├── index.html       # The main HTML file with the page structure.
-├── style.css        # All custom CSS for styling and animations.
-└── script.js        # The core JavaScript logic, including all algorithms.
 
-#⚙️ How to Run
+# ⚙️ How to Run
 Clone the repository to your local machine:
-git clone https://github.com/LokVinayin/algorithm-visualizer.git
+
+<img width="926" height="94" alt="image" src="https://github.com/user-attachments/assets/e533303a-d519-4292-b8a5-fca9c666530c" />
+
 
 Navigate to the project directory:
-cd algorithm-visualizer
 
-Open the index.html file in your preferred web browser.
-
-#✍️ Author
-Lok Vinayin
+<img width="910" height="97" alt="image" src="https://github.com/user-attachments/assets/836e7c5c-b57e-46d0-9cca-0fa0f61457f2" />
 
 
+--> Open the index.html file in your preferred web browser.
 
-
-
-
-
+# ✍️ Author
+Lok Vinay

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-title">
+             <img src="https://placehold.co/40x40/3b82f6/fff?text=AV" alt="Algorithm Visualizer Logo">
+            <h1>Algorithm Visualizer</h1>
+        </div>
+        <nav class="nav-links">
+            <button class="nav-button active" data-section="sorting">Sorting</button>
+            <button class="nav-button" data-section="pathfinding">Pathfinding</button>
+        </nav>
+        <span class="theme-toggle" id="theme-toggle">☀️</span>
+    </header>
+
+    <main class="container">
+        <!-- Sorting Visualizer Section -->
+        <section id="sorting-section" class="section active">
+            <div class="visualizer-card">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="sort-algorithm">Algorithm</label>
+                        <select id="sort-algorithm">
+                            <option value="bubble">Bubble Sort</option>
+                            <option value="insertion">Insertion Sort</option>
+                            <option value="merge">Merge Sort</option>
+                            <option value="quick">Quick Sort</option>
+                            <option value="heap">Heap Sort</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="animation-speed">Speed: <span id="speed-value">Slow</span></label>
+                        <input type="range" id="animation-speed" min="1" max="100" value="30">
+                    </div>
+                    <button id="generate-array-btn">Generate New Array</button>
+                    <button id="start-sort-btn">Start Sorting</button>
+                    <button id="pause-sort-btn" disabled>Pause</button>
+                    <button id="sort-notes-btn" class="notes-btn" disabled>Show Notes</button>
+                </div>
+                <div class="user-input">
+                    <label for="array-input">Enter comma-separated numbers (e.g., 5, 2, 8, 1, 9)</label>
+                    <input type="text" id="array-input" placeholder="e.g., 50, 20, 80, 10, 90">
+                    <button id="create-custom-array-btn">Create Custom Array</button>
+                </div>
+                <div class="stats" id="sorting-stats">
+                    <span id="steps-count">Steps: 0</span> | 
+                    <span id="time-complexity">Time: $O(n^2)$</span>
+                </div>
+                <div class="visualizer" id="sorting-container"></div>
+            </div>
+        </section>
+
+        <!-- Pathfinding Visualizer Section -->
+        <section id="pathfinding-section" class="section">
+            <div class="visualizer-card">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="path-algorithm">Algorithm</label>
+                        <select id="path-algorithm">
+                            <option value="bfs">Breadth-First Search (BFS)</option>
+                            <option value="dfs">Depth-First Search (DFS)</option>
+                            <option value="dijkstra">Dijkstra's</option>
+                            <option value="aStar">A* Search</option>
+                        </select>
+                    </div>
+                    <button id="generate-maze-btn">Generate Maze</button>
+                    <button id="set-start-btn">Set Start Node</button>
+                    <button id="set-end-btn">Set End Node</button>
+                    <button id="start-path-btn">Start Pathfinding</button>
+                    <button id="reset-path-btn">Reset</button>
+                    <button id="path-notes-btn" class="notes-btn" disabled>Show Notes</button>
+                </div>
+                <div class="stats" id="pathfinding-stats">
+                    <span id="path-steps">Path Length: 0</span> | 
+                    <span id="visited-nodes">Visited Nodes: 0</span>
+                </div>
+                <div class="grid-container" id="pathfinding-container">
+                    <div id="grid" class="grid"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer-->
+    <footer>
+        © All rights reserved | Lok Vinay
+    </footer>
+
+    <!-- The Modal -->
+    <div id="notes-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title" class="modal-title"></h2>
+            <div id="modal-body" class="modal-body"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
